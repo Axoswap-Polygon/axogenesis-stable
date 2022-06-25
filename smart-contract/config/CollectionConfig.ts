@@ -26,7 +26,7 @@ const CollectionConfig: CollectionConfigInterface = {
     price: 50,
     maxMintAmountPerTx: 5,
   },
-  contractAddress: "0x55C7DAC3CFb6b733569a279c226D2aA74dEeD651",
+  contractAddress: "",
   marketplaceIdentifier: 'AxoGenesis',
   marketplaceConfig: Marketplaces.openSea,
   whitelistAddresses,
