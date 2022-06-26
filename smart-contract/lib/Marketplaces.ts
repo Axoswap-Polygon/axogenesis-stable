@@ -1,6 +1,6 @@
 import MarketplaceConfigInterface from './MarketplaceConfigInterface';
 
 export const openSea: MarketplaceConfigInterface = {
-  name: 'OpenSea',
-  generateCollectionUrl: (marketplaceIdentifier: string, isMainnet: boolean) => 'https://' + (isMainnet ? 'www' : 'testnets') + '.opensea.io/collection/' + marketplaceIdentifier,
+  name: 'Rarible',
+  generateCollectionUrl: (marketplaceIdentifier: string, isPolygon: boolean) => 'https://' + (isPolygon ? 'www' : '') + '.rarible.com/' + marketplaceIdentifier,
 }
